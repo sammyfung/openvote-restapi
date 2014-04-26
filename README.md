@@ -1,6 +1,10 @@
 openvote-restapi
 ================
 
+Changing RabbitMQ guest account password to 'guest' after installation of RabbitMQ.     
+$ sudo rabbitmqctl change_password guest guest    
+You should change password at production.     
+
 Install:    
 
 $ virtualenv env    
