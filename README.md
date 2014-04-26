@@ -8,7 +8,7 @@ You should change password at production.
 Install:    
 
 $ virtualenv env    
-$ source env/bin/activiate    
+$ source env/bin/activate
 $ git clone https://github.com/sammyfung/openvote-restapi    
 $ pip install -r openvote-restapi/requirements.txt    
 
@@ -18,5 +18,5 @@ $ python openvote-restapi.py
 
 Test:     
 
-$ curl -d 'votedata=helloworld' http://localhost:5000/api/1.0/vote    
+$ curl -d 'votedata=helloworld' http://localhost:5000/api/v1.0/vote    
 
